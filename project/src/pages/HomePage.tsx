@@ -38,7 +38,6 @@ const HomePage = () => {
                             </div>
                             
                             <div className="flex justify-center text-nowrap w-96 ">
-                                <p className="mr-3">Почта пльзователя:</p>
                                 {
                                     user.email
                                 }
