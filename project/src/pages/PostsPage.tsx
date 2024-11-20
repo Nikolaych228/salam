@@ -19,7 +19,7 @@ useEffect (() => {
             console.log(e)
         }
         finally {
-            setLoading (true)
+            setLoading (false)
         }
     }
     getPosts()
